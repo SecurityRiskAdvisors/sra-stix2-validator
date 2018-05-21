@@ -1,0 +1,29 @@
+{
+  "name": "sra-stix2-validator",
+  "version": "1.0.0",
+  "description": "stix 2.0 validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecurityRiskAdvisors/sra-stix2-validator.git"
+  },
+  "keywords": [
+    "stix2",
+    "validation"
+  ],
+  "author": "Galen Fisher <galen.fisher@securityriskadvisors.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SecurityRiskAdvisors/sra-stix2-validator/issues"
+  },
+  "homepage": "https://github.com/SecurityRiskAdvisors/sra-stix2-validator#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "ajv": "^6.5.0"
+  }
+}
