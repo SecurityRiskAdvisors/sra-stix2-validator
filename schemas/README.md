@@ -1,0 +1,1 @@
+converted from draft04 to draft06 spec using ajv-cli, these are manipulated at runtime
