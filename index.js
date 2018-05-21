@@ -18,13 +18,13 @@ const configureSchema = () => {
         keyRef[key] = fixedSchema['$id'];
         ajv.addSchema(fixedSchema, fixedSchema['$id']);
     }
+    schemaConfigured = true;
 }
     
 const validate = (stix2data) => {
     if(!schemaConfigured) {
         configureSchema();
     }    
-
     var valid = ajv.validate(keyRef[stix2data.type], stix2data);
     if (!valid) {
         return ajv.errors;
