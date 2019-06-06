@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/SecurityRiskAdvisors/sra-stix2-validator#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.8.0"
   },
   "dependencies": {
     "ajv": "^6.5.0"
